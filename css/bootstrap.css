@@ -164,7 +164,7 @@ a:hover {
 }
 
 a:not([href]) {
-  color: inherit;
+  color: #7e7e7e;
   text-decoration: none;
 }
 
@@ -6036,7 +6036,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
@@ -6426,6 +6426,7 @@ a.close.disabled {
 .popover-body {
   padding: 0.5rem 0.75rem;
   color: #212529;
+  text-align: justify;
 }
 
 .carousel {
@@ -7259,6 +7260,7 @@ button.bg-dark:focus {
 .justify-content-between {
   -ms-flex-pack: justify !important;
   justify-content: space-between !important;
+  padding-top: 5px;
 }
 
 .justify-content-around {
@@ -10275,3 +10277,4 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
+

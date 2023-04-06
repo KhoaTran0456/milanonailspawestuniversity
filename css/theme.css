@@ -1265,13 +1265,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 .page-hero {
   position: relative;
-  height: 700px;
+  height: 600px;
   z-index: 10;
 }
 
 .page-banner {
   position: relative;
-  height: 600px;
+  height: 700px;
   z-index: 10;
 }
 
@@ -2174,4 +2174,34 @@ footer .margin-bottom{
   .bg-light .custom-index{
     background: #fffff9;
   }
+}
+
+/*mneu in Modal*/
+.modal{
+	z-index: 99999;
+}
+.menu-popup .menu-item,
+.menu-popup .price
+{
+	color: #bd232f;
+}
+.modal-body{
+	height: 360px;
+
+}
+.menu-popup .menu-item{
+	width: 460px;
+}
+.menu-popup li{
+	border-bottom: 1px solid #f4f4f4;
+	width: 100%;
+}
+.text-black{
+	color: #bd232f;
+}
+a{
+	cursor: pointer;
+}
+.menu-popup li.no-line{
+	border: none;
 }
